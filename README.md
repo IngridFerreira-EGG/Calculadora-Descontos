@@ -1,5 +1,5 @@
 <div align="center">
- Calculadora de Desconto
+ 🛒 Calculadora de Desconto
 
 ---
 </div>
@@ -9,6 +9,6 @@ Este sistema em ![Python](https://img.shields.io/badge/Python-3776AB?style=for-t
 
 <div align="center">
 
-$Valor_final = {Preco_inicial \times desconto/100}$
+🧾 $Valor_Final = {Preco_Inicial \times desconto/100}$
 
 </div>
