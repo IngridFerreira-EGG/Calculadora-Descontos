@@ -2,17 +2,18 @@
 valor_total_compra = float(input("Valor da compra: "))
 
 #Processamento do desconto a aplicar
-if valor_total_compra < 200.00:
-    desconto1 = (valor_total_compra * 0.05)
+if valor_total_compra >= 300.00:
+    desconto = (valor_total_compra * 0.15)
+    percentual = "15%"
 elif valor_total_compra >= 200.00:
-    desconto2 = (valor_total_compra * 0.1)
-elif valor_total_compra >= 300.00:
-    desconto3 = (valor_total_compra * 0.15)
+    desconto = (valor_total_compra * 0.1)
+    percentual = "10%"
+else:
+    desconto = (valor_total_compra * 0.05)
+    percentual = "5%"
+
+#Cálculo do valor final da compra após o desconto
+valor_final = valor_total_compra - desconto
 
 #Saída do valor final com o desconto aplicado
-if desconto1:
-    print("Você ganhou um desconto de 5%. O valor da sua compra após o desconto é de {desconto1} reais")
-elif desconto2:
-    print("Você ganhou um desconto de 10%. O valor da sua compra após o desconto é de {desconto2} reais")
-elif desconto3:
-    print("Você ganhou um desconto de 15%. O valor da suacompra após o desconto é de {desconto3} reais")
+print(f"Você ganhou um desconto de {percentual}. O valor da sua compra após o desconto é de {valor_final} reais ")
