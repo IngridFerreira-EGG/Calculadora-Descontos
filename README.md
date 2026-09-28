@@ -9,6 +9,6 @@ Este sistema em ![Python](https://img.shields.io/badge/Python-3776AB?style=for-t
 
 <div align="center">
 
-🧾 $Valor_Final = {Preco_Inicial \times desconto/100}$
+🧾 $ValorFinal = {PrecoInicial \times desconto/100}$
 
 </div>
